@@ -1,4 +1,5 @@
-
-body{
-  background-color: black;
+.alignSpecificElement{
+  width: 300%;
+  margin-left: auto;
+  margin-right: auto;
 }

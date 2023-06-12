@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className={inter.className} style={{backgroundColor:'black'}}>
+      <body className={inter.className}>
         <Menu />
         {children}
       </body>
@@ -37,7 +37,7 @@ function Menu() {
     <nav className="navbar navbar-expand-lg" style={{backgroundColor:'black'}}>
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="https://assets.turbologo.com/blog/pt/2019/11/19133546/EA-logo.png" alt="Logo" width="50" height="24" className="d-inline-block align-text-top" />
+          <img src="https://assets.turbologo.com/blog/pt/2019/11/19133546/EA-logo.png" alt="Logo" width="100" height="24" className="d-inline-block align-text-top" />
           SaferMKT
         </a>
         <ul className="nav justify-content-center">
