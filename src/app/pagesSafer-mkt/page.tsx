@@ -1,22 +1,25 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
-import Section_CrescaRapido from "./section/Cresca-rapido";
-import Section_AboutSaferMk from "./section/Sobre-SaferMkt";
-import Section_Apresentation from "./section/Apresentation";
+import Section_Apresentation from "./section/1_Apresentation";
+import Section_CrescaRapido from "./section/2_Cresca-rapido";
+import Section_AboutSaferMk from "./section/3_Sobre-SaferMkt";
+import Section_ServicosPrestados from "./section/4_Servicos-Prestados";
 
 export default function Home() {
     return (
-        <div>
-            <div style={{backgroundColor:'brown'}}>
-                <Section_Apresentation></Section_Apresentation>
+        <div className='lazySection'>
+            <div style={{backgroundColor:'#050404'}}>
+                <Section_Apresentation/>
             </div>
-            <div style={{backgroundColor:'black'}}>
-                <Section_CrescaRapido></Section_CrescaRapido>
+            <div style={{backgroundColor:'#2F2E2E'}}>
+                <Section_CrescaRapido/>
             </div>
-            <div style={{backgroundColor:'brown'}}>
+            <div style={{backgroundColor:'#050404'}}>
                 <Section_AboutSaferMk />
+            </div>
+            <div style={{backgroundColor:'#2F2E2E'}}>
+                <Section_ServicosPrestados/>
             </div>
         </div>
     );

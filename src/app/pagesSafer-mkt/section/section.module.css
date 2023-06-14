@@ -4,8 +4,6 @@
   margin-right: auto;  
 }
 
-
-
 .borderSection{
   border:2px solid black;
   border-radius: 10px;
@@ -18,3 +16,8 @@
   margin:90px -20px;
   
 }
+
+.colorWhite{
+  color: white;
+}
+

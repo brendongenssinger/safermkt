@@ -3,3 +3,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.lazySection {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.lazySection.loaded {
+  opacity: 1;
+}
+
+.colorLink{
+  color: black;
+
+}

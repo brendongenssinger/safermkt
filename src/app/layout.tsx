@@ -1,5 +1,5 @@
-import './globals.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import './globals.css'
 
 import { Inter } from 'next/font/google'
 import Script from 'next/script';
@@ -34,24 +34,23 @@ export default function RootLayout({
 
 function Menu() {
   return (
-    <nav className="navbar navbar-expand-lg" style={{backgroundColor:'black'}}>
+    <nav className="navbar navbar-expand-lg" style={{backgroundColor:'white'}}>
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="https://assets.turbologo.com/blog/pt/2019/11/19133546/EA-logo.png" alt="Logo" width="100" height="24" className="d-inline-block align-text-top" />
-          SaferMKT
+          <img src="./images/logo-safer.jpeg" alt="Logo" width="129" height="150" className="d-inline-block align-text-top" />          
         </a>
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">O que SaferMkt faz </a>
+            <a className="nav-link active colorLink" aria-current="page" href="#">O que SaferMkt faz </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Benefícios</a>
+            <a className="nav-link colorLink" href="#">Benefícios</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Nossos Clientes</a>
+            <a className="nav-link colorLink" href="#">Nossos Clientes</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link disabled">Perguntas Frequentes</a>
+            <a className="nav-link colorLink">Perguntas Frequentes</a>
           </li>
         </ul>
 

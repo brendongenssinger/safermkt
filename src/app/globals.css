@@ -103,3 +103,37 @@ a {
 p {
 color: white;
 }
+
+.nav-link {
+  color: black;
+} 
+.nav-link:focus, .nav-link:hover {
+  font-weight: bold;
+  color: black;  
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #fff;
+}
+
+.diagonal-line {
+  width: 100px; /* Ajuste a largura conforme necessário */
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+}
+
+.vertical-line {
+  border-left: 1px solid #fff;
+  height: 100px; /* Ajuste a altura conforme necessário */
+}
+
+.bordaElemento{
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
