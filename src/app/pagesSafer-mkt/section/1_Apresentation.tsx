@@ -4,10 +4,16 @@ import WhatsAppButtonClient from "../component/buttons";
 export default function Section_Apresentation() {
     return (
         <section>
-            <div className= {"row " +styles.borderSection}>
-                <div className="col colorWhite" style={{ marginTop: '5%' }}>
+            <div className= {`${'row ' + styles.borderSection}`}>
+                <div className="col colorWhite" 
+                        style={
+                                { 
+                                    marginTop: '5%',
+                                    marginBottom:'5%'
+                                }
+                                }>
                     <h1 style={{color:'white'}}>Soluções de Marketing para maximizar seu faturamento !</h1>
-                    <div className="diagonal-line"></div>
+                    {/* <div className="diagonal-line"></div> */}
                     <div className="col">
                         <p>Tenha um time de marketing completo atuando diariamente no crescimento do seu negócio.</p>
                     </div>
@@ -19,10 +25,10 @@ export default function Section_Apresentation() {
                 <div className="col">
                     <img
                         src="/images/person-professional-removebg-preview.png"
-                        className="img-fluid"
+                        className={`${'img-fluid '+  styles.positionAllRigth + ' '+styles.positionAllCenterTopToBottom}`}
                         alt="..."
-                        width={'60%'}
-                        height={'100'}
+                        width={'30%'}
+                        height={'0'}
                         style={{ borderRadius:'50%'}}
                     >
                     </img>

@@ -4,7 +4,7 @@ export default function AboutSaferMkt(){
         <section className={styles.borderSection}>
             <div className="row">
                 <div className="col">
-                    <h3>O que é a Safer MKT</h3>
+                    <h3 style={{color:'white'}}>O que é a Safer MKT</h3>
                     <hr style={{width:'150px',color:'aqua'}}/>
                     <p>Com mais de uma década de experiência, e mais de 10 mil clientes atendidos, hoje somos a maior Assessoria de Marketing Digital do Brasil.
                     Responsáveis por construir campanhas de marketing eficazes, apresentar a sua empresa ao público-alvo ideal, aumentar o seu número de clientes e impulsionar o crescimento do seu negócio.</p>

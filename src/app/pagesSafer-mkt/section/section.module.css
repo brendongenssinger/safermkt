@@ -8,6 +8,7 @@
   border:2px solid black;
   border-radius: 10px;
   padding:50px;   
+  
 }
 
 .imgApresentation{
@@ -21,3 +22,42 @@
   color: white;
 }
 
+
+.alignSpecificElement_flex {
+  display: flex;
+  justify-content: center;
+}
+.positionAllRigth{
+  float:right;
+
+}
+
+.positionAllCenterTopToBottom{
+  position: absolute;  
+  transform: translateY(10%);
+  right: 10%;
+
+}
+
+.bordaElemento{
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+}
+
+
+@media screen and (min-width:1214px) {
+  .positionAllCenterTopToBottom{
+    transform: translateY(0%);
+  }
+}
+@media screen and (min-width:1214px) {
+  .positionAllCenterTopToBottom{
+    width: 25%;
+  }
+}

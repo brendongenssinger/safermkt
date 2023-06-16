@@ -35,9 +35,9 @@ export default function RootLayout({
 function Menu() {
   return (
     <nav className="navbar navbar-expand-lg" style={{backgroundColor:'white'}}>
-      <div className="container">
+      <div className="container">        
         <a className="navbar-brand" href="#">
-          <img src="./images/logo-safer.jpeg" alt="Logo" width="129" height="150" className="d-inline-block align-text-top" />          
+          <img src="./images/logo-safer.jpeg" alt="Logo" width="150%" height="150" className="d-inline-block align-text-top" />          
         </a>
         <ul className="nav justify-content-center">
           <li className="nav-item">
