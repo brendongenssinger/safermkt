@@ -2,7 +2,7 @@
 const nextConfig = {
     experimental:{
         reactServerComponents: true,
-        reactRefresh: true,
+        reactRefresh: true        
     }
 }
 

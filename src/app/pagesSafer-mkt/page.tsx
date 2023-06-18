@@ -12,13 +12,13 @@ export default function Home() {
             <div style={{backgroundColor:'#050404'}}>
                 <Section_Apresentation/>
             </div>
-            <div style={{backgroundColor:'#2F2E2E'}}>
+            <div style={{backgroundColor:'#1a1919'}}>
                 <Section_ServicosPrestados/>
             </div>
-            <div style={{backgroundColor:'#2F2E2E'}}>
+            <div style={{backgroundColor:'#050404'}}>
                 <Section_CrescaRapido/>
             </div>
-            <div style={{backgroundColor:'#050404'}}>
+            <div style={{backgroundColor:'#1a1919'}}>
                 <Section_AboutSaferMk />
             </div>
             

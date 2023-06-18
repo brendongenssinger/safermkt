@@ -114,7 +114,9 @@ color: white;
 
 hr {
   border: none;
-  border-top: 1px solid #fff;
+  border-top: 3px solid #fffFFF;
+  opacity: 1.25;
+  width: 300px;
 }
 
 .diagonal-line {

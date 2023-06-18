@@ -4,8 +4,12 @@ export default function Section_CrescaRapido() {
     return (
         <section className={`${styles.borderSection}`}>
             <div className="row">                
-                <h1 className={styles.alignSpecificElement_flex} style={{color:'white',marginBottom:'20px'}}>Cresça rápido usando a internet</h1>
-                
+            <div className="row">
+                <div className="col">
+                    <h1 className={styles.alignSpecificElement_flex} style={{color:'white',marginBottom:'20px'}}>Cresça rápido usando a internet</h1>
+                    <hr style={{marginLeft:'auto',marginRight:'auto'}}/> 
+                </div>
+            </div>
                 <div className="col ">     
 
                     <div className={styles.bordaElemento}>

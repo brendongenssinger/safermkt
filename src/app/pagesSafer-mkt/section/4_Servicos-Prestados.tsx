@@ -1,5 +1,6 @@
+import Script from 'next/script';
 import styles from './section.module.css'
-
+import * as bootstrap from 'bootstrap'
 
 
 export default function ServicosPrestados() {
@@ -7,46 +8,54 @@ export default function ServicosPrestados() {
         <section className={`${styles.borderSection} ${styles.lazySection}`} id='lazySection'>
 
             <div className="row">
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <h1 style={{ color: 'white',marginBottom:'50px' }}>Serviços Prestados</h1>
+                <div className="container">
+                    <div className="col">
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <h1 style={{ color: 'white', marginBottom: '5px' }}>Serviços Prestados</h1>
+                        </div>
+                        <hr style={{marginLeft:'auto',marginRight:'auto'}}/>                    
+                    </div>
                 </div>
 
-                <div id="carouselExampleCaptions" className="carousel slide">                    
-                    <div className="carousel-inner">
-                        
-                        <div className="carousel-item active">
-                            <img src="./images/feed.jpg" className="d-block w-50" alt="..." style={{marginLeft:'auto',marginRight:'auto'}} height={'700'}/>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5  style={{color:'black'}}>Gerenciando suas publicações no Instagram</h5>
-                                <p style={{color:'black'}}>Gerenciando as publicações no feed para aumentar o engajamento .</p>
-                            </div>
-                        </div>
-                    
-                        <div className="carousel-item">
-                        <img src="./images/feed.jpg" className="d-block w-50" alt="..." style={{marginLeft:'auto',marginRight:'auto'}} height={'700'}/>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5 style={{color:'black'}}>Gerenciando suas publicações no Instagram</h5>
-                                <p style={{color:'black'}}>Gerenciando as publicações no feed para aumentar o engajamento .</p>
-                            </div>
+                <div className="container" style={{ display: 'flex', justifyContent: 'center',marginTop:'50px' }}>
+                    <div className="row">                    
+                    <div className="card mb-3" style={{ 'maxWidth': '20rem', marginRight:'5rem'}}>
+                        <div className="card-header" style={{ textAlign: 'center', fontSize: '20px' }}>Feed</div>
+                        <div className="card-body">
+                            <img src="./images/feed.jpg" className={`${'d-block w-100 '} ${styles.opactiy_images}`} alt="..."
+                                style={{ marginLeft: 'auto', marginRight: 'auto' }}
+                                height={'200'} />
+                            <h5 className="card-title">Publicações no Feed</h5>
+                            <p className="card-text" style={{color:'black'}}>
+                                No feed escolhemos as melhores imagens e utilizamos o recurso copywrite onde é chamado a atenção do usuário.
+                            </p>
                         </div>
                     </div>
-                    <div className="carousel-item">
-                            <img src="./images/feed.jpg" className="d-block w-50" alt="..." style={{marginLeft:'auto',marginRight:'auto'}} height={'700'}/>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Gerenciando suas publicações no Instagram</h5>
-                                <p>Gerenciando as publicações no feed para aumentar o engajamento .</p>
-                            </div>
+
+                    <div className="card mb-3" style={{ 'maxWidth': '20rem', marginRight:'5rem' }}>
+                        <div className="card-header" style={{ textAlign: 'center', fontSize: '20px' }}>Story</div>
+                        <div className="card-body">
+                            <img src="./images/feed.jpg" className={`${'d-block w-100 '}`} alt="..."                               
+                                height={'200'} />
+                            <h5 className="card-title">Publicações no Story</h5>
+                            <p className="card-text" style={{color:'black'}}>No Story vamos interagir e buscar o máximo de engajamento do usuário .</p>
+                        </div>
                     </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style={{marginTop:'0%'}}>
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style={{marginTop:'0%'}}>
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+
+                    <div className="card mb-3" style={{ 'maxWidth': '20rem', marginRight:'5rem' }}>
+                        <div className="card-header" style={{ textAlign: 'center', fontSize: '20px' }}>Reels</div>
+                        <div className="card-body">
+                            <img src="./images/feed.jpg" className={`${'d-block w-100 '} ${styles.opactiy_images}`} alt="..."
+                                style={{ marginLeft: 'auto', marginRight: 'auto' }}
+                                height={'200'} />
+                            <h5 className="card-title">Interação com o Usuário</h5>
+                            <p className="card-text" style={{color:'black'}}>Videos curtos onde desperta a curiosidade do seu cliente.</p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
             </div>
+
         </section>
     );
 }
