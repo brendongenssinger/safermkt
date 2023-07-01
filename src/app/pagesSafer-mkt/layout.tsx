@@ -12,7 +12,7 @@ export default function pagesSafermktLayout({
   return (    
     <div>
       {children}
-      <Script src='/js/lazyLoadSection.js' />   
+      <Script src='/js/lazyLoadSection.js' />         
     </div>
   )
 }
